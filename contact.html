@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essence Elixirs</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Essence Elixirs</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="home.html" class="link-color1">Home</a></li>
+          <li><a href="about.html" class="link-color1">About Us</a></li>
+          <li><a href="collection.html" class="link-color2">Collection</a></li>
+          <li><a href="essential.html" class="link-color1">Essential oil</a></li>
+          <li><a href="contact.html" class="link-color2">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Essence Elixirs</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="home.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="collection.html" onclick="toggleMenu()">Collection</a></li>
+          <li><a href="essential.html" onclick="toggleMenu()">Essential</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <div class="contact">
+        <h1>CONTACT US</h1>
+        <p class="paragraf">Have a question or feedback? We’d love to hear from you! Our<br> team at Essence Elixirs is here to assist you with any inquiries<br> you may have. Whether you need assistance with product<br> selection, want to learn more about our offerings, or have any<br> other queries, feel free to reach out to us.</p>
+        <p class="paragraf">You can contact us via email at essence.elixirs@gmail.com, or simply <br> fill out the form below and we’ll get back to you as soon as possible. <br>Your satisfaction is our priority, and we’re committed to providing<br> you with exceptional customer service.</p>
+        <p class="paragraf">Thank you for choosing Essence Elixirs. We look forward to <br> connecting with you!</p>
+        <section id="Contact" class="contact">
+            <div class="contanier">
+                
+    
+                <form id="contact-form">
+                    <input type="text" id="first_name" placeholder="First Name" style="width: 48%; ">
+                    <input type="text" id="last_name" placeholder="Last Name"style="width: 48%; ">
+                    <input type="email" id="email" placeholder="Email Address" style="width: 100%;">
+                    <textarea id="message" placeholder="Your Message" style="width: 100%; height: 40%; "></textarea>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+        </section>            
+    </div>
+    <script src="main.js"></script>
+    </body>
+    
+
+    </html>
